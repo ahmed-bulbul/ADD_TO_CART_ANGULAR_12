@@ -22,6 +22,7 @@ export class CartService {
     this.cartItemList.push(product);
     this.productList.next(this.cartItemList);
     this.getTotalPrice();
+    alert("Cart Add Successfully");
     console.log(this.cartItemList)
   }
   getTotalPrice() : number{

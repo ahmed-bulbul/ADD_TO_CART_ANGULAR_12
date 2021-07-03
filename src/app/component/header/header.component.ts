@@ -8,6 +8,8 @@ import { CartService } from 'src/app/service/cart.service';
 })
 export class HeaderComponent implements OnInit {
 
+
+
   public totalItem : number = 0;
   constructor(private cartService : CartService) { }
 
